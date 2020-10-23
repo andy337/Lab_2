@@ -10,29 +10,11 @@ namespace Лаб_2._1
         private int b;
         private int c;
 
-        public int A
-        {
-            get
-            {
-                return a;
-            }
-        }
+        public int A { get { return a; } }
 
-        public int B
-        {
-            get
-            {
-                return b;
-            }
-        }
+        public int B { get { return b; } }
 
-        public int C
-        {
-            get
-            {
-                return c;
-            }
-        }
+        public int C { get { return c; } }
 
         public TTriangle() { } // конструктор без параметрів
 
